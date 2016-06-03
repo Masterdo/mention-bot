@@ -28,5 +28,5 @@ module.exports = function(
   //
   //   @hunkim, thanks! @georgecodes and @vjeux, please review this.
 
-	return defaultMessageGenerator(reviewers, pullRequester);
+	return 'These ARE the reviewers you are looking for. ' + mentionSentenceBuilder(reviewers) + ', please take a look.';
 };
